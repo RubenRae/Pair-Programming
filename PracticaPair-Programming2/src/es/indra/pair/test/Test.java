@@ -1,4 +1,4 @@
-package es.indra.pair.Test;
+package es.indra.pair.test;
 
 import java.util.ArrayList;
 import java.util.HashMap;
