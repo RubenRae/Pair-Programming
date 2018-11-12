@@ -10,7 +10,7 @@ import es.indra.pair.beans.Categoria;
 import es.indra.pair.beans.Cliente;
 import es.indra.pair.beans.Producto;
 
-public class Compras {
+public class Compra {
 
 
 
@@ -69,7 +69,7 @@ public class Compras {
 	
 	public List<List<Producto>> modificarStock(String nombre, int stock,List<List<Producto>> listaCategorias) {
 	  
-	  Compras comp = new Compras();
+	  Compra comp = new Compra();
 	  List<List<Producto>> listaCategorias2 = listaCategorias;
 	  for(List<Producto> pro : listaCategorias2) {
 	    for(Producto prod : pro) {

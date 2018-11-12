@@ -9,12 +9,12 @@ import es.indra.pair.beans.Carro;
 import es.indra.pair.beans.Categoria;
 import es.indra.pair.beans.Cliente;
 import es.indra.pair.beans.Producto;
-import es.indra.pair.negocio.Compras;
+import es.indra.pair.negocio.Compra;
 
 public class Test {
 
 	public static void main(String[] args) {
-		Compras c = new Compras();
+		Compra c = new Compra();
 		
 		
 		// Crea y muestra lista de productos por categoria

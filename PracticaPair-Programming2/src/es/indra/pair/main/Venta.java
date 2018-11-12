@@ -10,7 +10,7 @@ import java.util.Scanner;
 import es.indra.pair.beans.Carro;
 import es.indra.pair.beans.Cliente;
 import es.indra.pair.beans.Producto;
-import es.indra.pair.negocio.Compras;
+import es.indra.pair.negocio.Compra;
 
 /**
  * @author CARLOS
@@ -27,7 +27,7 @@ public class Venta {
 		int idCategoria = 0;
 		int idProducto = 0;
 		Scanner sc = new Scanner(System.in);
-		Compras c = new Compras();
+		Compra c = new Compra();
 		List<List<Producto>> listaCategorias = c.crearProducto();
 		List<Carro> listaCarro = new ArrayList<>();
 		do {
